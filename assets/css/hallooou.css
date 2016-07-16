@@ -123,6 +123,11 @@ h1 span {
     color: #ff0000;
 }
 
+h3 span {
+    color: #ff0000;
+}
+
+
 p {
     margin: 0 0 25px;
     font-size: 18px;
@@ -574,6 +579,17 @@ blockquote span{
     position: absolute;
     background: #000; /* Set to black, can be changed via colors.css */
     opacity: 0.5;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.overlay-detail-2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #000; /* Set to black, can be changed via colors.css */
+    opacity: 0.1;
     left: 0;
     top: 0;
     z-index: 1;
