@@ -1027,6 +1027,21 @@ video {
 .recent-project img {
     width: 100%;
 }
+
+.recent-project-no {
+    position: relative;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.recent-project-no img {
+    width: 100%;
+}
+
+.recent-project-no iframe {
+    width: 100%;
+}
+
 .project-info {
   position: absolute;
   left: 0;
@@ -1090,6 +1105,7 @@ ul.project-meta li a:hover{
 
 /* Overlay and hover effect
 /* ---------------------------------------------- */
+
 .recent-project::before {
     content: "";
     background: rgba(59,59,59,0.8);

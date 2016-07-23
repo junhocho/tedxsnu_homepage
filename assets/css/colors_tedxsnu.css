@@ -125,15 +125,17 @@ blockquote {
 }
 
 .btn-outlined {
-    border: 1px solid #707278; /* Secondary color */
-    background-color: #707278; /* Secondary color */
+    border: 1px solid rgba(9,113,178, 1); /* Secondary color, can be changed via colors.cs */
+    color: #fff;
+    background-color: rgba(9,113,178, 1); /* Secondary color, can be changed via colors.cs */
 }
 
 
 .btn-outlined:hover,
 .btn-outlined:focus{
-	color:#707278; /* Secondary color */
-    border: 1px solid #707278; /* Secondary color */
+    border: 1px solid rgba(9,113,178, 1); /* Secondary color, can be changed via colors.cs */
+    color: rgba(9,113,178, 1); /* Secondary color, can be changed via colors.cs */
+    background: transparent;
 }
 
 
