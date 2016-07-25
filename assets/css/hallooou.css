@@ -1032,19 +1032,19 @@ video {
     width: 100%;
 }
 
-/*.recent-project-no {*/
-    /*position: relative;*/
-    /*overflow: hidden;*/
-    /*margin: 5px;*/
-/*}*/
+.recent-project-no {
+    position: relative;
+    overflow: hidden;
+    margin: 5px;
+}
 
-/*.recent-project-no img {*/
-    /*width: 100%;*/
-/*}*/
+.recent-project-no img {
+    width: 100%;
+}
 
-/*.recent-project-no iframe {*/
-    /*width: 100%;*/
-/*}*/
+.recent-project-no iframe {
+    width: 100%;
+}
 
 .project-info {
   position: absolute;
