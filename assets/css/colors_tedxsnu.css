@@ -51,7 +51,7 @@ a:focus,
 .services-item i,
 .client-info h4,
 blockquote {
-    color: #ff0000; /* Primary color */
+    color: #e62b1e; /* Primary color */
 }
 
 
@@ -73,13 +73,13 @@ blockquote {
 .recent-project-carousel.owl-theme .owl-controls .owl-page span,
 .scroll-top a:link,
 .scroll-top a:visited {
-    background: #ff0000; /* Primary color */
+    background: #e62b1e; /* Primary color */
 }
 
 
 .services-item:before {
-    border-bottom-color: #ff0000; /* Primary color */
-    border-left-color: #ff0000; /* Primary color */
+    border-bottom-color: #e62b1e; /* Primary color */
+    border-left-color: #e62b1e; /* Primary color */
 }
 
 .testimonials p.speech,
@@ -87,12 +87,12 @@ blockquote {
 .scroll-top a:link,
 .scroll-top a:visited,
 blockquote {
-    border-color: #ff0000; /* Primary color */
+    border-color: #e62b1e; /* Primary color */
 }
 
 .testimonials p.speech:before {
-    border-top-color: #ff0000; /* Primary color */
-    border-left-color: #ff0000; /* Primary color */
+    border-top-color: #e62b1e; /* Primary color */
+    border-left-color: #e62b1e; /* Primary color */
 }
 
 
