@@ -126,7 +126,9 @@ h1 span {
 h3 span {
     color: #ff0000;
 }
-
+h4 span {
+    color: #ff0000;
+}
 
 p {
     margin: 0 0 25px;
