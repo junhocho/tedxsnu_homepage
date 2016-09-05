@@ -1252,6 +1252,10 @@ ul.project-meta{
     background: rgba(255, 255, 255, .5) !important;
 }
 
+/* Our sponosrs for TEDxSNU*/
+.our-sponsors {
+    background-color: rgba(256,256,256, 1); /* Primary color, can be changed via colors.css */
+}
 
 /*       5.8: Contact section
 /* ---------------------------------------------- */

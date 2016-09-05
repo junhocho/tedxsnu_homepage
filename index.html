@@ -161,15 +161,27 @@
                     <!--</div>&lt;!&ndash; /.item &ndash;&gt;-->
 
                 </div>
-                <!-- Controls -->
-                <a class="left carousel-control squared" href="#intro-carousel" data-slide="prev">
-                    <i class="fa fa-angle-left fa-2x"></i>
-                </a>
-                <a class="right carousel-control squared" href="#intro-carousel" data-slide="next">
-                    <i class="fa fa-angle-right fa-2x"></i>
-                </a>
+                <!-- Controls 좌우화살표없애기-->
+                <!--<a class="left carousel-control squared" href="#intro-carousel" data-slide="prev">-->
+                    <!--<i class="fa fa-angle-left fa-2x"></i>-->
+                <!--</a>-->
+                <!--<a class="right carousel-control squared" href="#intro-carousel" data-slide="next">-->
+                    <!--<i class="fa fa-angle-right fa-2x"></i>-->
+                <!--</a>-->
                 <div class="mouse"></div>
             </header>
+            <section id="sponsor-intro" class="our-sponsors content-section text-center">
+            <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+            <h2>Upcoming 11th event sponsored by</h2>
+                <img style='height: 100%; width: 100%; object-fit: contain' src="assets/images/sponsors/sponsor-logos.png" />
+
+            </div><!-- /.col-md-12-->
+            </div><!-- /.row -->
+            </div><!-- /.container -->
+            </section><!-- /.our-clients -->
+
 
 
             <!--&lt;!&ndash; Temporary announcement. 임시 공지: 리쿠르팅 &ndash;&gt;-->
@@ -339,8 +351,16 @@
                             <h2>행사 다시보기</h2>
                             <!--<h3 class="caption white"><span><b>TEDx</span>SNU</b> 행사에는 선정된 연사분들의 강연과 청중이 교류할 수 있는 Ice breaking, Intermission이 진행합니다.</h3>-->
                             <a data-flickr-embed="true"  href="https://www.flickr.com/photos/120094162@N04/albums/72157667331140620" title="10th TEDxSNU"><img src="https://c6.staticflickr.com/8/7008/26817515645_d3ee5cc9e8.jpg" width="400" height="300" alt="10th TEDxSNU"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+                            <iframe id= "tedvideo" width="400" height="300" src="https://www.youtube.com/embed/videoseries?list=PL8VQQFTAX-On7dE7uqKzedLdK3ekxfVnk"  frameborder="0" allowfullscreen></iframe>
+                            <script type="text/javascript">
+                                var videoindex = Math.floor(Math.random() * 11)
+                                var url = "https://www.youtube.com/embed/videoseries?list=PL8VQQFTAX-On7dE7uqKzedLdK3ekxfVnk&index=" + videoindex;
+                                document.getElementById("tedvideo").src = url;
+                                // and so on, for the different elements
+                            </script>
                             <br>
-                            <h4>10회 행사 Flickr</h4>
+                            <!--<h4>10회 행사 Flickr</h4>-->
+
                         </div><!-- /.col-md-12 -->
                     </div><!-- /.row -->
                 </div><!-- /.container -->
