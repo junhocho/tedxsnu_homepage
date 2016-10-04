@@ -1,4 +1,6 @@
-# Hallooou - One page HTML5 responsive template
+# TEDxSNU hompage with Hallooou - One page HTML5 responsive template
+
+[official TedxSNU homepage](http://www.tedxsnu.com)
 
 Hallooou is multi-purpose, creative, one page parallax, responsive theme for portfolio showcase, modern businesses, agency, personal use, etc.
 
